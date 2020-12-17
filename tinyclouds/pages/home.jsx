@@ -7,7 +7,7 @@ export default function homePage(request) {
       <body className="index">
         <main>
           <p><img src="static/ry.jpg" height="100" /></p>
-          <h1>Ryan Dahl</h1>
+          <h1>Ryan</h1>
           <p><a href="mailto:ry@tinyclouds.org">ry@tinyclouds.org</a></p>
           <br />
           <p><a href="https://deno.land/">Deno</a></p>
