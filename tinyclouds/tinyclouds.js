@@ -11,6 +11,8 @@ import MathPage from "./pages/math.jsx";
 
 
 
+
+
 serve({
   "/": Home,
   "/optimistic_nihilism": OptimisticNihilism,
