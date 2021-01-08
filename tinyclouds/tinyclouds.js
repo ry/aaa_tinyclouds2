@@ -9,10 +9,6 @@ import IocpLinks from "./pages/iocp_links.jsx";
 import Visual from "./pages/visual.jsx";
 import MathPage from "./pages/math.jsx";
 
-
-
-
-
 serve({
   "/": Home,
   "/optimistic_nihilism": OptimisticNihilism,
