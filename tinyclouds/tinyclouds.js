@@ -18,7 +18,7 @@ serve({
   "/iocp_links": IocpLinks,
   "/math": MathPage,
   "/visual": Visual,
-  "/static/(.*)": serveStatic("static", { baseUrl: import.meta.url }),
+  "/static/:filename+": serveStatic("static", { baseUrl: import.meta.url }),
   404: NotFound,
   // Redirects
   //"/rant.html": redirect("/rant"),
